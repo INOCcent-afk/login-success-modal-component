@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "AktivGrotesk-m";
+  src: url("fonts/AktivGroteskCorp-Medium.eot");
+  src: local("fonts/AktivGroteskCorp-Medium"),
+    url("fonts/AktivGroteskCorp-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Medium.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Medium.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "aktiv-grotesk";
+  src: url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-b";
+  src: url("fonts/AktivGroteskCorp-Bold.eot");
+  src: local("fonts/AktivGroteskCorp-Bold"),
+    url("fonts/AktivGroteskCorp-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Bold.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-italic";
+  src: url("fonts/AktivGroteskCorp-Italic.eot");
+  src: local("fonts/AktivGroteskCorp-Italic"),
+    url("fonts/AktivGroteskCorp-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Italic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Italic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-light-italic";
+  src: url("fonts/AktivGroteskCorp-LightItalic.eot");
+  src: local("fonts/AktivGroteskCorp-LightItalic"),
+    url("fonts/AktivGroteskCorp-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-LightItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-LightItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-medium-italic";
+  src: url("fonts/AktivGroteskCorp-MediumItalic.eot");
+  src: local("fonts/AktivGroteskCorp-MediumItalic"),
+    url("fonts/AktivGroteskCorp-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-MediumItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-MediumItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-l";
+  src: url("fonts/AktivGroteskCorp-Light.eot");
+  src: local("fonts/AktivGroteskCorp-Light"),
+    url("fonts/AktivGroteskCorp-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Light.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Light.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-r";
+  src: url("fonts/AktivGroteskCorp-Regular.eot");
+  src: local("fonts/AktivGroteskCorp-Regular"),
+    url("fonts/AktivGroteskCorp-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-bold-italic";
+  src: url("fonts/AktivGroteskCorp-BoldItalic.eot");
+  src: local("fonts/AktivGroteskCorp-BoldItalic"),
+    url("fonts/AktivGroteskCorp-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-BoldItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-BoldItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "aktiv-grotesk", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+.modal-dummy {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.modalbtnExample {
+  width: 300px;
+  height: 50px;
+  background: rgb(139, 21, 21);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  outline: none !important;
+}
+
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+.modal-v2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(17, 24, 31, 0.9);
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  display: none;
+}
+
+.modal-v2-content {
+  width: 100%;
+  max-width: 350px;
+  min-height: 283px;
+  background-color: #11181f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  border: 1px solid #dbdbdb;
+  position: relative;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.modal-v2-content img {
+  position: absolute;
+  right: 24px;
+  top: 25px;
+  width: 15px;
+  cursor: pointer;
+}
+.modal-v2-content h4 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: "aktiv-grotesk-extended", sans-serif;
+}
+.modal-v2-content p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #dbdbdb;
+}
+.modal-v2-content button {
+  font-size: 11px;
+  width: 103px;
+  height: 40px;
+  border: 1px solid #dbdbdb;
+  background: transparent;
+  color: #dbdbdb;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 500px) {
+  .modal-v2-content {
+    margin: 0;
+    padding: 0;
+  }
+}
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
+/*  ONLY COPY THE CODE BETWEEN THIS COMMENTS */
